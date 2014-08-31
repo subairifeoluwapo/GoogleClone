@@ -1,0 +1,123 @@
+/**********************************************************
+For tablets and other larger screen resolutions
+*********************************************************/
+
+
+@media screen and (min-width: 480px) {
+
+/****************************************
+PAGE: SIGN IN
+*****************************************/
+
+
+/*****************
+HEADER
+****************/
+header {
+	float: right;
+	padding-bottom: 0;
+}
+
+nav a {
+	border-bottom: 10em;
+	padding-bottom: 10em;
+}
+
+
+/*****************
+SECTION STYLE
+****************/
+.section {
+	display: block;
+}
+
+.googlelogo {
+	max-width: 24%;
+	padding-top: 12em;
+	padding-left: 22em;
+}
+
+.search {
+	width: 20em;
+	height: 2em;
+	margin: 0 0 1.5em 13em;
+	padding: 0 0 0 20em;
+}
+
+.languages {
+	font-size: .8em;
+	padding-bottom: 17.8em;
+}
+
+
+/****************
+FOOTER
+****************/
+footer {
+	text-align: center;
+	font-size: .78em;
+}
+
+.footer a:nth-child(3) {
+	padding-right: 27.7em;
+}
+
+
+
+
+
+
+
+
+/*************************************************
+PAGE: SIGNED IN
+**************************************************/
+
+
+/*****************
+HEADER
+****************/
+
+
+
+
+}
+
+/**@media screen and (min-width: 660px) {
+
+/****************************************
+PAGE: SIGN IN
+*****************************************/
+
+/*****************
+HEADER
+****************/
+
+
+
+/*****************
+SECTION STYLE
+****************/
+/**#googlelogo {
+	margin: auto;
+}
+
+
+
+
+/*****************
+FOOTER
+****************/
+
+
+
+/****************************************
+PAGE: SIGNED IN
+*****************************************/
+
+/*****************
+HEADER
+****************/
+
+
+

@@ -1,0 +1,69 @@
+<!--Project to replicate Google search page
+This index.html file is the unsigned in page
+while the signedIn page is a separate file
+-->
+<!DOCTYPE html>
+<html>
+
+	<head>
+<!--normalize.css resets the html to a default setting-->
+		<link rel="stylesheet" href="css1/reset.css">
+		<link href=''>
+<!--main1.css contains my desired stylings-->
+		<link rel="stylesheet" href="css1/main1.css">
+<!--responsive.css allows for mobile screen and larger screen views-->
+		<link rel="stylesheet" href="css1/responsive1.css">
+		<meta charset="utf-8">
+		<title>GoogleClone</title>
+	</head>
+
+<!--The body is divided into the header, section and footer-->
+
+	<body>
+
+		<header>
+
+			<nav>
+					<a href="index.html" class="you">+Ifeoluwapo</a>
+					<a href="" class="gmail">Gmail</a>
+					<a href="" class="images">Images</a>
+					<a href=""><img class="applogo" src="data:image/jpeg;base64,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"></a>
+					<a href=""><img src=""></a>
+			</nav>
+
+		</header>
+
+		<section>
+
+			<div class="section">
+				<img src="img1/googlelogo.png" alt="" class="googlelogo">
+				<input class="search">
+				<div  class="googlesearch">
+					<button>Google Search</button>
+					<button>Feeling Lucky</button>
+				</div>
+				<p class="languages">Google.com.ng offered in: <a href="">Harshen Hausa</a> <a href="">Asụsụ Igbo</a> <a href="">Èdè Yorùbá Pidgin</a></p>
+			</div>
+		
+		</section>
+
+		<footer>
+				
+			<div class="footer">
+				<a href="">Advertising</a>
+				<a href="">Business</a>
+				<a href="" class="shift">About</a>
+				<a href="">Privacy&terms</a>
+				<a href="">Settings</a>
+				<a href="">Use Google.com</a>
+			</div>
+
+		</footer>
+
+
+	</body>
+
+
+
+
+</html>

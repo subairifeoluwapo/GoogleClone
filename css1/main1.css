@@ -1,0 +1,139 @@
+
+/***********************************************************
+The main.css code is written to be viewed in mobile devices
+and small screen devices.
+************************************************************/
+
+
+
+/*****************************************************************************
+GENERAL
+******************************************************************************/
+a {
+	text-decoration: none;
+}
+
+
+ul li {
+	list-style: none;
+}
+
+
+
+/****************************************
+PAGE: SIGN IN
+*****************************************/
+
+
+/*****************
+HEADER STYLE
+****************/
+.header {
+	text-align: center;
+	padding: 1em 1.5em 5em 1.5em;
+}
+
+.header ul li {
+	display: inline-block;	
+	padding: 0 .3em;
+	padding-bottom: 4em;
+}
+
+.header ul li a {
+	font-family: arial;
+	font-family: .5em;
+	color: #aaa;
+}
+
+.header ul li a:hover {
+text-decoration: underline;
+}
+
+div ul li a button {
+	background-color: #4682B4; 
+	border-style: none;
+	color: white;
+}
+
+
+/*****************
+SECTION STYLE
+****************/
+section {
+	display: inline-block;
+	text-align: center;
+}
+
+.googlelogo {
+	padding: 2em 5em .5 0;
+	width: 10em;
+}
+
+.search {
+	padding: .2em 4em;
+	width: 55%;
+}
+
+.button {
+	padding-top: 1.5em;
+}
+
+.languages {
+	padding: 2em 0 13em .3em;
+	font-size: .7em;
+	font-family: arial;
+}
+
+.languages a {
+	padding: 0 .3em;
+	color: blue;
+}
+
+.languages a:hover {
+	text-decoration: underline;
+}
+
+
+/****************
+FOOTER STYLE
+****************/
+.footer {
+	background-color: #eee;
+	padding-top: 1em; 
+}
+
+.footer ul li {
+	padding: 0 1em 0 1em;
+	display: inline-block;
+}
+
+.footer ul li a {
+	color: darkgrey;
+}
+
+.footer ul li a:hover {
+	text-decoration: underline;
+}
+
+.footer ul {
+	padding-bottom: 1em;
+	text-align: center;
+}
+
+.footer ul:nth-child(2) {
+	text-align: center;
+}
+
+
+/*************************************************
+PAGE: SIGNED IN
+**************************************************/
+
+
+/*****************
+HEADER
+****************/
+
+
+
+
