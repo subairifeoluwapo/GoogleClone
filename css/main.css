@@ -95,15 +95,9 @@ input {
 	padding-left: .5em;
 	padding-right: .5em;
 	padding-top: 1.5em;
-	margin-bottom: 5%;
+	margin-bottom: 100%;
 }
 
-div>button:hover {
-	box-shadow: .1px .1px lightgrey; 
-	font-family: sans-serif;
-	padding: .5em .5em;
-	border-style: none;
-}
 
 /****************
 FOOTER STYLE
