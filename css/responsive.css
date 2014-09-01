@@ -37,7 +37,7 @@ SECTION STYLE
 	width: 30%;
 	padding-top: 1em;
 	padding-bottom: 1em;
-	padding-left: 27%;
+	padding-left: 26%;
 	padding-right: 10%;
 }
 
@@ -65,11 +65,11 @@ FOOTER
 
 
 footer {
-	font-size: .5em;
+	font-size: 1em;
 }
 
 .footer ul li a {
-	float: left;
+
 }
 .footer a:nth-child(3) {
 
