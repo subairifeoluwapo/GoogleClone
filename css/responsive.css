@@ -41,15 +41,16 @@ SECTION STYLE
 	padding-left: 0;
 	padding-top: 1em;
 	padding-bottom: 1em;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-top: 20%;
+	margin-left: 20%;
+	
 }
 
 .search {
 	width: 50%;
 	height: 2em;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 20%;
+
 }
 
 input {
@@ -58,8 +59,7 @@ input {
 
 .button {
 	padding-top: .5em;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 20%;
 	margin-bottom: 50%;
 }
 
@@ -89,12 +89,10 @@ footer {
 	float: left;
 }
 
-.shift2 {
-	
+
+.footer ul li a:nth-child(3) {
+	margin-right: auto;
 }
-
-
-
 
 
 
