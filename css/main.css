@@ -73,6 +73,13 @@ section {
 	width: 10em;
 }
 
+input {
+	background-image: url(../img/mic2.png);
+	background-repeat: no-repeat;
+	background-size: 7%;
+	background-position: right;
+}
+
 .search {
 	padding: .2em 4em;
 	width: 55%;
