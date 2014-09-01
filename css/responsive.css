@@ -70,16 +70,27 @@ FOOTER
 
 
 footer {
-	margin: auto;
+	width: 100%;
 	display: inline-block;
 	font-size: 1em;
 }
 
 .footer ul li a {
-	padding: 1em 1em 1em 1em;
+	font-family: arial;
+	font-size: .9em; 
+	padding: 1em .5em 1em .5em;
 }
 
-.footer a:nth-child(3) {
+.footer ul li {
+	padding-top: 1em;
+}
+
+.footer ul:nth-child(1) {
+	float: left;
+}
+
+.shift2 {
+	margin-left: 25em;
 }
 
 
