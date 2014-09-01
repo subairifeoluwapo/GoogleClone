@@ -104,7 +104,8 @@ FOOTER STYLE
 ****************/
 .footer {
 	background-color: #eee;
-	padding-top: 1em; 
+	padding-top: 1em;
+	padding-bottom: 2em; 
 }
 
 .footer ul li {

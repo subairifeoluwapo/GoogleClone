@@ -30,22 +30,26 @@ header {
 SECTION STYLE
 ****************/
 .section {
-	display: block;
+	display: inline-block;
+	text-align: center;
 }
+
+
 
 .googlelogo {
 	width: 30%;
+	padding-left: 0;
 	padding-top: 1em;
 	padding-bottom: 1em;
-	padding-left: 26%;
-	padding-right: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 .search {
-	width: 60%;
+	width: 50%;
 	height: 2em;
-	margin: 0 0 1.5em 13em;
-	padding: 0 0;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 input {
@@ -54,8 +58,9 @@ input {
 
 .button {
 	padding-top: .5em;
-	padding-left: 10em;
-	padding-bottom: 50%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 50%;
 }
 
 /****************
@@ -65,14 +70,16 @@ FOOTER
 
 
 footer {
+	margin: auto;
+	display: inline-block;
 	font-size: 1em;
 }
 
 .footer ul li a {
-
+	padding: 1em 1em 1em 1em;
 }
-.footer a:nth-child(3) {
 
+.footer a:nth-child(3) {
 }
 
 
