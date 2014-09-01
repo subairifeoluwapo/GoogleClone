@@ -30,7 +30,7 @@ header {
 SECTION STYLE
 ****************/
 .section {
-	display: inline-block;
+	display: block;
 	text-align: center;
 }
 
@@ -38,18 +38,16 @@ SECTION STYLE
 
 .googlelogo {
 	width: 30%;
-	padding-left: 0;
-	padding-top: 1em;
+	padding-left: 25%;
+	padding-top: 15em;
 	padding-bottom: 1em;
-	margin-top: 20%;
-	margin-left: 20%;
 	
 }
 
 .search {
-	width: 50%;
+	width: 30%;
 	height: 2em;
-	margin-left: 20%;
+	padding-left: 25%;
 
 }
 

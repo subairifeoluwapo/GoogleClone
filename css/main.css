@@ -70,11 +70,13 @@ div ul li a button:hover {
 SECTION STYLE
 ****************/
 section {
-	display: inline-block;
+	width: 100%;
+	display: block;
 	text-align: center;
 }
 
 .googlelogo {
+	max-width: 100%;
 	padding: 2em 5em .5 0;
 	width: 10em;
 }
@@ -87,6 +89,7 @@ input {
 }
 
 .search {
+	max-width: 100%;
 	padding: .2em 4em;
 	width: 55%;
 }
