@@ -19,14 +19,11 @@ header {
 }
 
 .header ul li a  {
-	padding: 0 1em 0 1em;
+	padding: 0 .25em 0 .25em;
 	border-bottom: 10em;
 	padding-bottom: 10em;
 }
 
-div ul li a button {
-	
-}
 
 
 /*****************
@@ -37,34 +34,45 @@ SECTION STYLE
 }
 
 .googlelogo {
-	max-width: 24%;
-	padding-top: 12em;
-	padding-left: 22em;
+	width: 30%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 27%;
+	padding-right: 10%;
 }
 
 .search {
-	width: 20em;
+	width: 60%;
 	height: 2em;
 	margin: 0 0 1.5em 13em;
-	padding: 0 0 0 20em;
+	padding: 0 0;
 }
 
-.languages {
-	font-size: .8em;
-	padding-bottom: 17.8em;
+input {
+	background-size: 5%;
 }
 
+.button {
+	padding-top: .5em;
+	padding-left: 10em;
+	padding-bottom: 50%;
+}
 
 /****************
 FOOTER
 ****************/
+
+
+
 footer {
-	text-align: center;
-	font-size: .78em;
+	font-size: .5em;
 }
 
+.footer ul li a {
+	float: left;
+}
 .footer a:nth-child(3) {
-	padding-right: 27.7em;
+
 }
 
 

@@ -91,16 +91,19 @@ input {
 	width: 55%;
 }
 
-.button:hover {
-	box-shadow: 1.5px 1.5px lightgrey;
-}
-
 .button {
+	padding-left: .5em;
+	padding-right: .5em;
 	padding-top: 1.5em;
-	padding-bottom: 100%;
+	margin-bottom: 5%;
 }
 
-
+div>button:hover {
+	box-shadow: .1px .1px lightgrey; 
+	font-family: sans-serif;
+	padding: .5em .5em;
+	border-style: none;
+}
 
 /****************
 FOOTER STYLE
