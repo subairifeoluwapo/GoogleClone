@@ -38,8 +38,8 @@ SECTION STYLE
 
 .googlelogo {
 	width: 30%;
-	padding-left: 25%;
-	padding-top: 15em;
+	padding-left: 27%;
+	padding-top: 10em;
 	padding-bottom: 1em;
 	
 }
@@ -48,6 +48,7 @@ SECTION STYLE
 	width: 30%;
 	height: 2em;
 	padding-left: 25%;
+	margin-bottom: 1em;
 
 }
 
@@ -57,8 +58,8 @@ input {
 
 .button {
 	padding-top: .5em;
-	padding-left: 2%;
-	margin-bottom: 50%;
+	margin-bottom: 25%;
+	margin-right: 2em;
 }
 
 /****************
@@ -73,24 +74,26 @@ footer {
 	font-size: 1em;
 }
 
+.footer {
+	padding-bottom: .5em;
+	padding-top: .5em;
+}
+
+.footer ul:nth-child(2) {
+	float: right;
+}
+
 .footer ul li a {
 	font-family: arial;
 	font-size: .9em; 
 	padding: 1em .5em 1em .5em;
 }
 
-.footer ul li {
-	padding-top: 1em;
-}
 
 .footer ul:nth-child(1) {
 	float: left;
 }
 
-
-.footer ul li a:nth-child(3) {
-	margin-right: auto;
-}
 
 
 
@@ -108,7 +111,7 @@ HEADER
 
 
 
-}
+
 
 /**@media screen and (min-width: 660px) {
 
