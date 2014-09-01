@@ -41,7 +41,7 @@ HEADER STYLE
 
 .header ul li a {
 	font-family: arial;
-	font-family: .5em;
+	font-size: .8em;
 	color: #aaa;
 }
 
@@ -50,12 +50,15 @@ text-decoration: underline;
 }
 
 div ul li a button {
+	padding: .5em .7em;
 	background-color: #4682B4; 
 	border-style: none;
 	color: white;
 }
 
-
+div ul li a button:hover {
+	box-shadow: 0 
+}
 /*****************
 SECTION STYLE
 ****************/
@@ -76,22 +79,9 @@ section {
 
 .button {
 	padding-top: 1.5em;
+	padding-bottom: 100%;
 }
 
-.languages {
-	padding: 2em 0 13em .3em;
-	font-size: .7em;
-	font-family: arial;
-}
-
-.languages a {
-	padding: 0 .3em;
-	color: blue;
-}
-
-.languages a:hover {
-	text-decoration: underline;
-}
 
 
 /****************
@@ -103,7 +93,7 @@ FOOTER STYLE
 }
 
 .footer ul li {
-	padding: 0 1em 0 1em;
+	padding: 0 .5em 0 .5em;
 	display: inline-block;
 }
 
