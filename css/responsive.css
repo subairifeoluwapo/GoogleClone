@@ -18,9 +18,14 @@ header {
 	padding-bottom: 0;
 }
 
-nav a {
+.header ul li a  {
+	padding: 0 1em 0 1em;
 	border-bottom: 10em;
 	padding-bottom: 10em;
+}
+
+div ul li a button {
+	
 }
 
 
