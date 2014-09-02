@@ -37,7 +37,7 @@ SECTION STYLE
 
 
 .googlelogo {
-	width: 30%;
+	width: 25%;
 	padding-left: 27%;
 	padding-top: 10em;
 	padding-bottom: 1em;
@@ -58,7 +58,7 @@ input {
 
 .button {
 	padding-top: .5em;
-	margin-bottom: 25%;
+	margin-bottom: 20%;
 	margin-right: 2em;
 }
 
@@ -75,8 +75,8 @@ footer {
 }
 
 .footer {
-	padding-bottom: .5em;
-	padding-top: .5em;
+	padding-bottom: 2em;
+	padding-top: 1em;
 }
 
 .footer ul:nth-child(2) {
