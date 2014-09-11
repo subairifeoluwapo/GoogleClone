@@ -37,11 +37,10 @@ SECTION STYLE
 
 
 .googlelogo {
-	width: 25%;
-	padding-left: 27%;
-	padding-top: 4em;
+	width: 23%;
+	padding-left: 35%;
+	padding-top: 10em;
 	padding-bottom: 1em;
-	padding-right: 27%;
 	
 }
 
@@ -76,8 +75,8 @@ footer {
 }
 
 .footer {
-	padding-bottom: 2.5em;
-	padding-top: 1em;
+	padding-bottom: 3em;
+	padding-top: 1.5em;
 }
 
 .footer ul:nth-child(2) {
@@ -97,7 +96,7 @@ footer {
 
 
 
-
+}
 
 
 /*************************************************

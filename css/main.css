@@ -38,7 +38,7 @@ HEADER STYLE
 	padding-top: .3em;
 	padding-right: .3em;	
 	padding-left: .3em;
-	padding-bottom: 4em;
+	padding-bottom: 1em;
 }
 
 .header ul li a {
@@ -70,15 +70,15 @@ div ul li a button:hover {
 SECTION STYLE
 ****************/
 section {
-	width: 100%;
 	display: block;
 	text-align: center;
 }
 
 .googlelogo {
-	max-width: 100%;
-	padding: 2em 5em .5 0;
+	padding: 0 5em .5em 0;
 	width: 10em;
+	padding-left: 5em;
+	margin-right: 4.5em;
 }
 
 input {
@@ -98,7 +98,7 @@ input {
 	padding-left: .5em;
 	padding-right: .5em;
 	padding-top: 1.5em;
-	margin-bottom: 45%;
+	margin-bottom: 55%;
 }
 
 /****************
@@ -108,10 +108,12 @@ FOOTER STYLE
 	background-color: #eee;
 	padding-top: 1em;
 	padding-bottom: 1em; 
+	padding-right: 1em;
+	padding-left: 1em;
 }
 
 .footer ul li {
-	padding: 0 .5em 0 .5em;
+	padding: 0 .3em 0 .3em;
 	display: inline-block;
 }
 
