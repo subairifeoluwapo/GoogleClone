@@ -45,7 +45,7 @@ SECTION STYLE
 }
 
 .search {
-	width: 30%;
+	width: 20%;
 	height: 2em;
 	padding-left: 25%;
 	margin-bottom: 1em;
@@ -53,12 +53,12 @@ SECTION STYLE
 }
 
 input {
-	background-size: 5%;
+	background-size: 3.5%;
 }
 
 .button {
 	padding-top: .5em;
-	margin-bottom: 20%;
+	margin-bottom: 17%;
 	margin-right: 2em;
 }
 
@@ -75,7 +75,7 @@ footer {
 }
 
 .footer {
-	padding-bottom: 2em;
+	padding-bottom: 2.5em;
 	padding-top: 1em;
 }
 
